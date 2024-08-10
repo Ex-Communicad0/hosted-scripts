@@ -19,7 +19,7 @@ function create_self_ssl() {
         country=US
         state=California
         locality="San Fransisco"
-        organization=swizzin
+        organization=39.lw.itsby.design
         organizationalunit=$user
         commonname=$user
         ssl_password=""
