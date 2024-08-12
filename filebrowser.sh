@@ -1,6 +1,6 @@
 #!/bin/bash
 # Thx liara, userdocs 
-username=$(whoami)
+username="arafatvai"  # or use $(whoami) if you want it to be dynamic
 mkdir -p "$HOME/.logs/"
 export log="$HOME/.logs/filebrowser.log"
 touch "$log"
