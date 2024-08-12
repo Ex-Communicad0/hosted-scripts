@@ -20,8 +20,8 @@ function create_self_ssl() {
         state=California
         locality="San Fransisco"
         organization=39.lw.itsby.design
-        organizationalunit=$user
-        commonname=$user
+        organizationalunit=39.lw.itsby.design
+        commonname=39.lw.itsby.design
         ssl_password=""
 
         openssl genrsa -out "$HOME/.ssl/$user-self-signed.key" 2048 >> /dev/null 2>&1
